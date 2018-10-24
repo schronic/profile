@@ -1,0 +1,84 @@
+
+body  {
+  background-color: rgb(200, 200, 200);
+  color: rgb(150, 150, 150);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+a:hover {
+  color: pink;
+}
+
+div {
+  background-color: white;
+  width: 700px;
+  margin: 30 auto;
+  padding: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(255 204 229 0.1);
+}
+
+ i {
+  font-size: 25px;
+}
+
+
+#demo {
+  padding: 10px;
+  margin: 5px;
+  background-color: pink;
+  font-weight: 300;
+  border-radius: 4px;
+}
+
+#demo:hover {
+  color: pink;
+}
+
+#social i{
+  margin: 7px;
+}
+
+.list *{
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#intro img{
+  width: 150;
+  border-radius: 100px;
+}
+
+#favorites {
+  text-align: center;
+}
+
+#favorites img {
+  max-width: 150px;
+  min-height:  150px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 25px;
+}
