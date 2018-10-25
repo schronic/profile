@@ -21,6 +21,14 @@ h2 {
   font-weight: 200;
 }
 
+h3 {
+  font-size: 15px;
+}
+
+p {
+  text-align: left;
+}
+
 a {
   text-decoration: none;
   color: rgb(150, 150, 150);
@@ -32,9 +40,11 @@ a:hover {
 
 div {
   background-color: white;
-  width: 700px;
-  margin: 30 auto;
-  padding: 50px;
+  margin-left: 200px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(255 204 229 0.1);
 }
@@ -46,24 +56,20 @@ div {
 
 #demo {
   padding: 10px;
-  margin: 5px;
+  margin: 20px;
   background-color: pink;
   font-weight: 300;
-  border-radius: 4px;
-}
-
-#demo:hover {
-  color: pink;
+  border-radius: 8px;
 }
 
 #social i{
   margin: 7px;
 }
 
-.list *{
+.list li{
   text-decoration: none;
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 40px;
 }
 
 #intro img{
@@ -81,4 +87,22 @@ div {
   overflow: hidden;
   padding: 20px;
   border-radius: 25px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("https://picsum.photos/160/400");
+    padding-top: 40px;
+}
+
+.sidenav a {
+    padding: 10px 20px;
+    font-size: 25px;
+    display: block;
 }
